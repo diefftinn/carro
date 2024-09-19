@@ -1,0 +1,75 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: #0b1996;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#productsContainer, #cartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product-card, .cart-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 150px;
+}
+
+.product-card img, .cart-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h3, .cart-item h3 {
+  margin: 10px 0 0;
+  font-size: 16px;
+}
+
+.product-card p, .cart-item p {
+  font-size: 14px;
+  color: gray;
+}
+
+.cart-item button {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.cart-item button:hover {
+  background-color: darkred;
+}
